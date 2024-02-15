@@ -1,28 +1,28 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-0zu9.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Video 01",
-    "description": "Esse é o primeiro vídeo",
-    "duration": 180
+    "title": "Primeiro vídeo do canal",
+    "description": "Deixa o like e se inscreve",
+    "duration": 600
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-0zu9.onrender.com/videos
 //?search=node
 
 ###
 
-PUT http://localhost:3333/videos/425cc2fb-8532-4fc1-b5b9-c2e4eb07baca
+PUT https://node-do-zero-0zu9.onrender.com/videos/115509ff-9301-4f5f-8e00-0930a189cccc
 Content-Type: application/json
 
 {
-    "title": "Video 02",
-    "description": "Esse é o segundo",
+    "title": "vai ser apagado",
+    "description": "dá dislike",
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3333/videos/6b691920-524b-4670-bac4-03051d2a9352
+DELETE https://node-do-zero-0zu9.onrender.com/videos/115509ff-9301-4f5f-8e00-0930a189cccc
